@@ -1,14 +1,28 @@
-title: Project title in sentence case
-hero_image: images/banner.png
-description: A short description of the project
-listed: false
-pdf: false
+title: Boat race
+hero_image: images/small_banner.png
+description: Create a boat-racing game in which you have to avoid obstacles
+listed: true
+copyedit: true
+version: 4.1.2
+last_tested: 2024-11-19
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Getting started
+  - title: Controlling the boat
     completion:
-      - engaged      
+      - engaged
+  - title: Smooth out the movement
+  - title: Crash costumes
+  - title: Detect a crash
+  - title: Winning!
+  - title: Add a timer
+    completion:
+      - internal
+  - title: Booster arrows
+  - title: Speed the boat up
+  - title: Make a spinning gate
+  - title: Spin the gate
   - title: Challenge
     challenge: true
     completion:
       - external
+  - title: What can you do now?
