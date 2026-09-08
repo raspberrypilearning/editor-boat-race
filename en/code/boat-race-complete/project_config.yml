@@ -1,0 +1,4 @@
+name: "Boat race completed"
+identifier: "boat-race-complete"
+type: 'scratch'
+build: true

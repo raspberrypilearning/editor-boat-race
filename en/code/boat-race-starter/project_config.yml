@@ -1,0 +1,4 @@
+name: "Boat race"
+identifier: "boat-race-starter"
+type: 'scratch'
+build: true
