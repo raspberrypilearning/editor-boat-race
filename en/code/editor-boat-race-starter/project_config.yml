@@ -1,4 +1,4 @@
 name: "Boat race"
-identifier: "boat-race-starter"
+identifier: "editor-boat-race-starter"
 type: 'code_editor_scratch'
 build: true
