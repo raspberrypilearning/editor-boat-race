@@ -1,24 +1,35 @@
-## Spin the gate
+## Make a spinning gate
 
-Make the gate turn round and round.
+Add a spinning gate that the boat has to avoid.
 
-Click on the `gate`{:class="block3looks"} sprite.
+## Step 1
 
-Add code so it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+Paint a new sprite that looks like this, and call it `gate`.
 
-![gate](images/gate.png)
+![screenshot](images/boat-gate.png)
 
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
+Make sure the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-## Now run your code
+![screenshot](images/brown-hsv.png)
 
-Play the game.
+## Tip
 
-A spinning gate turns in your path, and you have to steer the boat around it.
+If you have trouble matching the colour of the barriers, set the colours to:
 
-![screenshot](images/boat-gate-test.png)
+Colour: 9
+
+Saturation: 100
+
+Brightness: 40
+
+## Step 2
+
+Make sure the centre of the gate sprite is positioned in the middle.
+
+You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+The gate won't move yet.
+
+You'll make it spin in the next step.

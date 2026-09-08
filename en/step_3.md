@@ -20,6 +20,6 @@ move (1) steps
 
 ## Now run your code
 
-Move the mouse near the boat.
+Click the green flag and move your mouse close to the boat.
 
-The boat stops jittering when the pointer is close.
+The boat now sits still instead of jittering when the pointer is near.

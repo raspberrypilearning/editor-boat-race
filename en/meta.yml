@@ -13,6 +13,7 @@ steps:
   - title: Smooth out the movement
   - title: Crash costumes
   - title: Detect a crash
+  - title: Start looking normal
   - title: Winning!
   - title: Add a timer
     completion:

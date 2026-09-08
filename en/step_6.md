@@ -1,16 +1,14 @@
-## Winning!
+## Start looking normal
 
-Let the player win when the boat reaches the island.
+Make sure the boat always starts out on its `normal` costume, even after a crash.
 
 You're still working on the `Boat`{:class="block3looks"} sprite.
 
-Add more blocks inside your `forever`{:class="block3control"} loop that check whether the boat is touching the island.
-
-If it is, say `YEAH!` and then stop the game.
+Add a `switch costume to (normal v)`{:class="block3looks"} block at the very start of your code.
 
 ```blocks3
 when flag clicked
-switch costume to (normal v)
++switch costume to (normal v)
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
@@ -25,27 +23,10 @@ switch costume to (normal v)
 point in direction (0)
 go to x: (-190) y: (-150)
 end
-+if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
-end
 ```
 
 ## Now run your code
 
-Steer the boat all the way to the island.
+Crash the boat, then click the green flag again.
 
-The boat says `YEAH!` and the game stops.
-
-## Tip
-
-To make it easier to test, you can temporarily change the numbers in the first `go to`{:class="block3motion"} block so the boat starts near the island:
-
-```blocks3
-when flag clicked
-switch costume to (normal v)
-point in direction (0)
-go to x: (150) y: (-90)
-```
-
-Don't forget to change it back once you've tested!
+The boat always starts on its normal costume, ready to race.
