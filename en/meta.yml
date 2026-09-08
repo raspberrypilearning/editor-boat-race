@@ -6,11 +6,10 @@ copyedit: true
 version: 4.1.2
 last_tested: 2024-11-19
 steps:
-  - title: Getting started
   - title: Controlling the boat
+  - title: Smooth out the movement
     completion:
       - engaged
-  - title: Smooth out the movement
   - title: Crash costumes
   - title: Detect a crash
   - title: Start looking normal

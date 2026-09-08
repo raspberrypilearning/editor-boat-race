@@ -1,25 +1,37 @@
-## Crash costumes
+## Detect a crash
 
-Right now the boat sails straight through the wooden barriers.
+Make the boat crash and reset when it touches a wooden barrier.
 
-Give it a second costume so it can look wrecked when it crashes.
+You're still working on the `Boat`{:class="block3looks"} sprite.
 
-## Step 1
+Add blocks inside your `forever`{:class="block3control"} loop that keep checking whether the boat is touching the brown wood.
 
-Click on the `Boat`{:class="block3looks"} sprite.
+If it is, switch to the `hit` costume, say something, then reset the boat's position.
 
-Duplicate its costume, and name one costume `normal` and the other `hit`.
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-[[[generic-scratch3-duplicate-costumes]]]
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
++if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
 
-## Step 2
+## Now run your code
 
-Click on your `hit` costume.
+Click the green flag and steer the boat into a wooden barrier.
 
-Use the **Select** tool to grab pieces of the costume and move and rotate them, so the boat looks like it has crashed to pieces.
+The boat switches to its wrecked costume, says something, then jumps back to the start.
 
-![screenshot](images/boat-hit-costume-annotated.png)
-
-You won't see the `hit` costume in the game yet.
-
-You'll switch to it when the boat crashes in the next step.
+![screenshot](images/boat-crash.png)

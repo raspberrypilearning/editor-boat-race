@@ -1,13 +1,36 @@
-## Getting started
+## Controlling the boat
 
-The starter project is open beside these instructions.
+The starter project is open beside these instructions, with the boat sprite and a race course to steer around: wood to avoid and a desert island to reach.
 
-It has a boat sprite and a race course backdrop, with wood that the boat has to avoid and a desert island that the boat has to reach.
+Make the boat start in the corner and follow the mouse pointer.
 
-If you have a Scratch account, you can make your own copy by clicking **Remix**.
+![boat sprite](images/boat_resize.png)
 
-![screenshot](images/boat-starter.png)
+Click on the `Boat`{:class="block3looks"} sprite, then add this code so it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
-You won't make anything move yet.
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
+```
 
-In the next step you'll get the boat following your mouse.
+## Now run your code
+
+Click the green flag and move your mouse.
+
+The boat turns and follows the pointer around the screen.
+
+--- no-print ---
+
+![screenshot](images/boat-pointer-test-anim.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+--- /print-only ---

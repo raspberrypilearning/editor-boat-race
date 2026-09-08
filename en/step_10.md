@@ -1,21 +1,35 @@
-## Speed the boat up
+## Make a spinning gate
 
-Make the boat go faster when it drives over a white arrow.
+Add a spinning gate that the boat has to avoid.
 
-![boat sprite](images/boat_resize.png)
+## Step 1
 
-Click on the `Boat`{:class="block3looks"} sprite.
+Paint a new sprite that looks like this, and call it `gate`.
 
-Add more blocks to the boat's `forever`{:class="block3control"} loop so the boat moves three extra steps when it touches white.
+![screenshot](images/boat-gate.png)
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+Make sure the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-## Now run your code
+![screenshot](images/brown-hsv.png)
 
-Click the green flag and drive over your booster arrows.
+## Tip
 
-The boat speeds up as it crosses them.
+If you have trouble matching the colour of the barriers, set the colours to:
+
+Colour: 9
+
+Saturation: 100
+
+Brightness: 40
+
+## Step 2
+
+Make sure the centre of the gate sprite is positioned in the middle.
+
+You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+The gate won't move yet.
+
+You'll make it spin in the next step.

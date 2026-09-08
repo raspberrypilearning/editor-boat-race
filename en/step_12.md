@@ -1,24 +1,27 @@
-## Spin the gate
+## Challenge
 
-Make the gate turn round and round.
+Make the game your own.
 
-Click on the `gate`{:class="block3looks"} sprite.
+Here are some ideas.
 
-Add code so it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![gate](images/gate.png)
+You could even add background music.
 
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
+[[[generic-scratch3-sound-from-library]]]
 
-## Now run your code
+Add more obstacles.
 
-Click the green flag.
+For example, add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-The gate spins in your path, and you have to steer the boat around it.
+You could add a moving obstacle, like a log or a shark!
 
-![screenshot](images/boat-gate-test.png)
+![screenshot](images/boat-obstacles.png)
+
+Turn your game into a race between two players.
+
+The second player could control their boat with the up arrow key to move forward and the left and right arrow keys to turn.
+
+Create more levels by adding different backdrops.
+
+Can you then let the player choose between levels?

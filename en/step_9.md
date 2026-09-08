@@ -1,15 +1,21 @@
-## Booster arrows
+## Speed the boat up
 
-Add some boosters to speed the boat up.
+Make the boat go faster when it drives over a white arrow.
 
-Paint some white booster arrows onto your backdrop by painting the backdrop on the Stage.
+![boat sprite](images/boat_resize.png)
 
-![screenshot](images/boat-boost.png)
+Click on the `Boat`{:class="block3looks"} sprite.
 
-## Tip
+Add more blocks to the boat's `forever`{:class="block3control"} loop so the boat moves three extra steps when it touches white.
 
-You can make your backdrop look like this by clicking the purple `next backdrop`{:class="block3looks"} block in the looks menu.
+```blocks3
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
+```
 
-The arrows won't do anything yet.
+## Now run your code
 
-You'll add the code that makes them speed up the boat in the next step.
+Click the green flag and drive over your booster arrows.
+
+The boat speeds up as it crosses them.

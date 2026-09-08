@@ -1,42 +1,38 @@
-## Winning!
+## Add a timer
 
-Let the player win when the boat reaches the island.
+Add a timer so the player has to reach the island as quickly as possible.
 
-You're still working on the `Boat`{:class="block3looks"} sprite.
+## Step 1
 
-Add more blocks inside your `forever`{:class="block3control"} loop that check whether the boat is touching the island.
+Click on the **Stage**.
 
-If it is, say `YEAH!` and then stop the game.
+## Step 2
+
+Add a new variable called `time`{:class="block3variables"}.
+
+[[[generic-scratch3-add-variable]]]
+
+![screenshot](images/boat-variable-annotated.png)
+
+## Step 3
+
+Add code to the **Stage** so the timer counts up in tenths (0.1) of a second.
+
+![stage](images/stage.png)
 
 ```blocks3
 when flag clicked
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
+set [time v] to [0]
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
-+if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
+wait (0.1) seconds
+change [time v] by (0.1)
 end
 ```
 
 ## Now run your code
 
-Click the green flag and steer all the way to the island.
+Click the green flag and race to the island.
 
-The boat says `YEAH!` and the game stops.
+The timer counts up while you play, so you can see how fast you were.
 
-## Tip
-
-To reach the island quickly while testing, temporarily change the first `go to`{:class="block3motion"} block to `go to x: (150) y: (-90)`, then change it back when you're done.
+![screenshot](images/boat-variable-test.png)

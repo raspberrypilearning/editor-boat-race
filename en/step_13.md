@@ -1,27 +1,26 @@
-## Challenge
+## What can you do now?
 
-Make the game your own.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway, where you will create a memory game.
 
-Here are some ideas.
+--- print-only ---
 
-Add sound effects that play when the boat crashes or reaches the island.
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-You could even add background music.
+--- /print-only ---
 
-[[[generic-scratch3-sound-from-library]]]
+--- no-print ---
 
-Add more obstacles.
+Click on the green flag to start.
 
-For example, add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
+Watch the sequence of colours shown by the dancer's dress and listen to the drum beats, then repeat the colours back to her.
 
-You could add a moving obstacle, like a log or a shark!
+If you get the order wrong, it's game over!
 
-![screenshot](images/boat-obstacles.png)
+<div class="scratch-preview">
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe>
+<img src="images/memory-screenshot.png">
+</div>
 
-Turn your game into a race between two players.
+--- /no-print ---
 
-The second player could control their boat with the up arrow key to move forward and the left and right arrow keys to turn.
-
-Create more levels by adding different backdrops.
-
-Can you then let the player choose between levels?
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?

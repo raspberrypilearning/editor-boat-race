@@ -1,25 +1,25 @@
-## Smooth out the movement
+## Crash costumes
 
-When the boat reaches the mouse pointer, it jitters about.
+Right now the boat sails straight through the wooden barriers.
 
-Fix this so the boat only moves when it is more than 5 pixels away from the pointer.
+Give it a second costume so it can look wrecked when it crashes.
 
-You're still working on the `Boat`{:class="block3looks"} sprite.
+## Step 1
 
-Add an `if`{:class="block3control"} block that checks whether the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5`{:class="block3operators"}, and put the movement inside it.
+Click on the `Boat`{:class="block3looks"} sprite.
 
-```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-+if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-```
+Duplicate its costume, and name one costume `normal` and the other `hit`.
 
-## Now run your code
+[[[generic-scratch3-duplicate-costumes]]]
 
-Click the green flag and move your mouse close to the boat.
+## Step 2
 
-The boat now sits still instead of jittering when the pointer is near.
+Click on your `hit` costume.
+
+Use the **Select** tool to grab pieces of the costume and move and rotate them, so the boat looks like it has crashed to pieces.
+
+![screenshot](images/boat-hit-costume-annotated.png)
+
+You won't see the `hit` costume in the game yet.
+
+You'll switch to it when the boat crashes in the next step.
