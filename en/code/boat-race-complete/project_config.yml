@@ -1,4 +1,4 @@
 name: "Boat race completed"
 identifier: "boat-race-complete"
-type: 'scratch'
-build: true
+type: 'code_editor_scratch'
+build: false
