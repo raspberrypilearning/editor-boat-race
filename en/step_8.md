@@ -6,42 +6,41 @@ Add a timer so the player has to reach the island quickly.
 
 Click on the **Stage**.
 
+add image
+
 ## Step 2
 
-Add a new variable called `time`{:class="block3variables"}.
+Make a new variable called **time**.
 
-[[[generic-scratch3-add-variable]]]
+add make variable image
+
+This will appear as an orange box in the stage.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 ## Step 3
 
-Add code to the **Stage** to reset the timer.
-
-![stage](images/stage.png)
+Add a `green flag`{:class="block3events"} and `set`{:class="block3variables"} the time to `0`.
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
++when flag clicked
++set [time v] to [0]
 ```
-
 ## Step 4
 
-Add a loop that counts up in tenths of a second.
+Add a loop that changes the time every `0.1` seconds.
 
 ```blocks3
 when flag clicked
 set [time v] to [0]
 +forever
-+wait (0.1) seconds
-+change [time v] by (0.1)
-+end
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 ## Now run your code
 
-Click the green flag and race to the island.
-
-Check that the timer counts up as you play.
+Click the green flag and check that the timer counts up as you play.
 
 ![screenshot](images/boat-variable-test.png)

@@ -1,12 +1,6 @@
 ## Spin the gate
 
-Make the gate turn round and round.
-
-Click on the **gate** sprite.
-
-Add a `forever`{:class="block3control"} loop.
-
-Inside it, add `turn 1 degree`{:class="block3motion"}.
+On the **gate** sprite, add a `forever`{:class="block3control"} loop with a  `turn 1 degree`{:class="block3motion"}.
 
 ![gate](images/gate.png)
 
@@ -21,6 +15,6 @@ end
 
 Click the green flag.
 
-Check that the gate spins in your path.
+Check that the gate spins in the boat's path.
 
 ![screenshot](images/boat-gate-test.png)
