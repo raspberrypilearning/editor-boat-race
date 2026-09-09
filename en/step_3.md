@@ -1,23 +1,21 @@
 ## Crash costumes
 
-Give the boat a second costume that looks wrecked.
+Give the boat a second costume that looks like it is wrecked.
 
 ## Step 1
 
 In the **Costumes tab**, duplicate the costume.
 
-![screenshot](images/step3-duplicate.png)
+![The duplicate option in the Costumes tab](images/step3-duplicate.png)
 
 ## Step 2
 
-Name one costume **normal** and the other **hit**.
+Name the new costume **hit**.
 
-![screenshot](images/step3-naming.png)
+![The costume named hit](images/step3-naming.png)
 
 ## Step 3
 
-Click on your **hit** costume.
+In your **hit** costume use the paint editor tools to move and rotate parts of the boat to make it look smashed up.
 
-Use the paint editor tools to move and rotate parts of the boat to make it look smashed up.
-
-![screenshot](images/boat-hit-costume-annotated.png)
+![The boat costume edited to look smashed up](images/boat-hit-costume-annotated.png)

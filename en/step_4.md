@@ -4,6 +4,12 @@ Make the boat crash when it touches the wooden barrier.
 
 ## Step 1
 
+Click on the **Code tab**.
+
+![The Code tab selected](images/tab_code.png)
+
+## Step 2
+
 Inside the `forever`{:class="block3control"} loop, add an `if`{:class="block3control"} block.
 
 ```blocks3
@@ -16,9 +22,9 @@ end
 +end
 ```
 
-## Step 2
+## Step 3
 
-Check if the boat is `touching`{:class="block3sensing"} the brown wood colour.
+Add a `touching color`{:class="block3sensing"} block to detect if the boat is touching brown wood colour.
 
 ```blocks3
 +if <touching color [#663b00] ?> then
@@ -27,9 +33,9 @@ end
 
 Use the eyedropper tool to set the same brown as the wood.
 
-ADD gif or screen shot.
+![The eyedropper picking the brown wood colour](images/eyedropper.png)
 
-## Step 3
+## Step 4
 
 If touching the wood, `switch costume`{:class="block3looks"} to hit and `say`{:class="block3looks"} "Noooooo!".
 
@@ -46,4 +52,4 @@ Click the green flag and crash into a barrier.
 
 Check that the boat shows its wrecked costume and says Noooooo!
 
-![screenshot](images/boat-crash.png)
+![The crashed boat saying Noooooo!](images/boat-crash.png)

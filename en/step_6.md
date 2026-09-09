@@ -1,8 +1,6 @@
 ## Start looking normal
 
-The boat needs to start each game on its normal costume.
-
-You're still working on the **Boat sprite**.
+The boat needs to start each game on its **normal** costume.
 
 Add a `switch costume to`{:class="block3looks"} block right after `green flag`{:class="block3events"}.
 
@@ -17,4 +15,4 @@ go to x: (-190) y: (-150)
 
 Crash the boat, then click the green flag.
 
-Check that the boat starts on its normal costume.
+Check that the boat starts on its **normal** costume.

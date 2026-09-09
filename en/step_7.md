@@ -4,14 +4,10 @@ The player wins when the boat reaches the island.
 
 ## Step 1
 
-Below the crash check, add an empty `if`{:class="block3control"} block.
+At the bottom of the `forever`{:class="block3control"} loop, add an empty `if`{:class="block3control"} block.
 
 ```blocks3
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
 if <touching color [#663b00] ?> then
 switch costume to (hit v)
 say [Noooooo!] for (2) seconds
@@ -25,16 +21,12 @@ end
 
 ## Step 2
 
-Check if the boat is `touching`{:class="block3sensing"} the yellow island.
+Add a `touching`{:class="block3sensing"} block and use the eyedropper tool to select the yellow colour of the island.
 
 ```blocks3
 +if <touching color [#FFFF99] ?> then
 end
 ```
-
-Use the eyedropper took to select the yellow colour.
-
-add image here
 
 ## Step 3
 
@@ -55,6 +47,6 @@ Check that the boat says YEAH! and the game stops.
 
 > ## Tip
 >
-> To test winning quickly, change the first `go to`{:class="block3motion"} block to `go to x: (150) y: (-90)`.
+> To test winning quickly, change the first `go to`{:class="block3motion"} block to `go to x: (150) y: (-90)`{:class="block3motion"}.
 >
 > Change it back afterwards.

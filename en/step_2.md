@@ -1,6 +1,6 @@
 ## Smooth out the movement
 
-The boat jitters when it reaches the pointer, you can smooth it out. 
+Make the boat stop moving when it touches the pointer.
 
 ## Step 1
 Wrap the movement in an `if`{:class="block3control"} block.
@@ -16,12 +16,9 @@ move (1) steps
 ```
 
 ## Step 2
-Check that the `distance to`{:class="block3sensing"} the mouse pointer is `more than 5`{:class="block3operators"}.
+Add a `more than`{:class="block3operators"} block and change the number to `5`. Drag a `distance to mouse-pointer`{:class="block3sensing"} block into the other slot.
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
 forever
 +if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)

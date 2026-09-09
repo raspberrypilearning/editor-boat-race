@@ -2,7 +2,7 @@
 
 Send the boat back to the start when it crashes.
 
-Inside the `if`{:class="block3control"} block, add blocks to send the boat back to the start and reset costume.
+Inside the `if`{:class="block3control"} block, add `movement`{:class="block3motion"} and `costume`{:class="block3looks"} blocks to reset the boat.
 
 ```blocks3
 if <touching color [#663b00] ?> then

@@ -6,17 +6,17 @@ Add a timer so the player has to reach the island quickly.
 
 Click on the **Stage**.
 
-add image
+![The Stage selected in the sprite panel](images/stage-panel.png)
 
 ## Step 2
 
-Make a new variable called **time**.
+In the `variables`{:class="block3variables"} menu, make a new variable and name it **time**.
 
-add make variable image
+![The Make a Variable button](images/make-variable.png)
 
-This will appear as an orange box in the stage.
+An orange box will appear on the stage.
 
-![screenshot](images/boat-variable-annotated.png)
+![The time variable shown on the stage](images/boat-variable-annotated.png)
 
 ## Step 3
 
@@ -43,4 +43,4 @@ end
 
 Click the green flag and check that the timer counts up as you play.
 
-![screenshot](images/boat-variable-test.png)
+![The timer counting up during the game](images/boat-variable-test.png)

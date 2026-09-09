@@ -4,12 +4,10 @@ Add boosters to speed the boat up.
 
 On the **Stage**, click on the costume tab and paint some white booster arrows onto the backdrop.
 
-![screenshot](images/boat-boost.png)
+![White booster arrows painted on the backdrop](images/boat-boost.png)
 
 > ## Tip
 >
-> The project has an example backdrop with arrows already on it.
->
-> Click the purple `next backdrop`{:class="block3looks"} block to see it, then copy the arrows onto your own backdrop.
+> The project includes a ready-made backdrop with arrows, if you'd rather use that than paint your own.
 
 The arrows do nothing until the next step.
