@@ -1,15 +1,47 @@
-## Booster arrows
+## Add a timer
 
-Add boosters to speed the boat up.
+Add a timer so the player has to reach the island quickly.
+
+## Step 1
 
 Click on the **Stage**.
 
-Paint some white booster arrows onto the backdrop.
+## Step 2
 
-![screenshot](images/boat-boost.png)
+Add a new variable called `time`{:class="block3variables"}.
 
-## Tip
+[[[generic-scratch3-add-variable]]]
 
-Click the purple `next backdrop`{:class="block3looks"} block to see the example.
+![screenshot](images/boat-variable-annotated.png)
 
-The arrows do nothing until the next step.
+## Step 3
+
+Add code to the **Stage** to reset the timer.
+
+![stage](images/stage.png)
+
+```blocks3
+when flag clicked
+set [time v] to [0]
+```
+
+## Step 4
+
+Add a loop that counts up in tenths of a second.
+
+```blocks3
+when flag clicked
+set [time v] to [0]
++forever
++wait (0.1) seconds
++change [time v] by (0.1)
++end
+```
+
+## Now run your code
+
+Click the green flag and race to the island.
+
+Check that the timer counts up as you play.
+
+![screenshot](images/boat-variable-test.png)

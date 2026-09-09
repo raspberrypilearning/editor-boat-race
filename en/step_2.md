@@ -1,12 +1,22 @@
 ## Smooth out the movement
 
-The boat jitters when it reaches the pointer.
+The boat jitters when it reaches the pointer, you can smooth it out. 
 
-You're still working on the **Boat sprite**.
-
+## Step 1
 Wrap the movement in an `if`{:class="block3control"} block.
 
-Set it to check that the `distance to`{:class="block3sensing"} the mouse pointer is `greater than 5`{:class="block3operators"}.
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if < > then
+point towards (mouse-pointer v)
+move (1) steps
+```
+
+## Step 2
+Check that the `distance to`{:class="block3sensing"} the mouse pointer is `more than 5`{:class="block3operators"}.
 
 ```blocks3
 when flag clicked

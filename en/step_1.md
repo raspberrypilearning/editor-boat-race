@@ -26,15 +26,15 @@ when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 +forever
-+point towards (mouse-pointer v)
-+move (1) steps
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 ## Now run your code
 
 Click the green flag and move your mouse.
 
-Check that the boat turns and follows the pointer around the screen.
+Check that the boat follows the pointer around the screen.
 
 ![screenshot](images/boat-pointer-test-anim.gif)
 

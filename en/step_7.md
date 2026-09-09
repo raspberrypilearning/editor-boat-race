@@ -1,49 +1,60 @@
-## Add a timer
+## Winning
 
-Add a timer so the player has to reach the island quickly.
+The player wins when the boat reaches the island.
 
 ## Step 1
 
-Click on the **Stage**.
+Below the crash check, add an empty `if`{:class="block3control"} block.
+
+```blocks3
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if < > then
++end
+```
 
 ## Step 2
 
-Add a new variable called `time`{:class="block3variables"}.
-
-[[[generic-scratch3-add-variable]]]
-
-![screenshot](images/boat-variable-annotated.png)
-
-## Step 3
-
-Add code to the **Stage** to reset the timer and start a loop.
-
-![stage](images/stage.png)
+Check if the boat is `touching`{:class="block3sensing"} the yellow island.
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
++if <touching color [#FFFF99] ?> then
 end
 ```
 
-## Step 4
+Use the eyedropper took to select the yellow colour.
 
-Inside the loop, count up in tenths of a second.
+add image here
+
+## Step 3
+
+Add a `say`{:class="block3looks"} YEAH! for when you win and `stop all`{:class="block3control"}.
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-+wait (0.1) seconds
-+change [time v] by (0.1)
+if <touching color [#FFFF99] ?> then
++say [YEAH!] for (2) seconds
++stop [all v]
 end
 ```
 
 ## Now run your code
 
-Click the green flag and race to the island.
+Click the green flag and steer to the island.
 
-Check that the timer counts up as you play.
+Check that the boat says YEAH! and the game stops.
 
-![screenshot](images/boat-variable-test.png)
+> ## Tip
+>
+> To test winning quickly, change the first `go to`{:class="block3motion"} block to `go to x: (150) y: (-90)`.
+>
+> Change it back afterwards.

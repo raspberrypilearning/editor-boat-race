@@ -1,20 +1,21 @@
-## Start looking normal
+## Reset after a crash
 
-The boat needs to start each game on its normal costume.
+Send the boat back to the start when it crashes.
 
-You're still working on the **Boat sprite**.
-
-Add a `switch costume to`{:class="block3looks"} normal block right after `when flag clicked`{:class="block3events"}.
+Inside the `if`{:class="block3control"} block, add blocks to send the boat back to the start and reset costume.
 
 ```blocks3
-when flag clicked
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
 +switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
++point in direction (0)
++go to x: (-190) y: (-150)
+end
 ```
 
 ## Now run your code
 
-Crash the boat, then click the green flag again.
+Click the green flag.
 
-Check that the boat starts on its normal costume.
+Crash into a barrier and check that the boat goes back to the start.

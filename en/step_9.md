@@ -1,25 +1,15 @@
-## Speed the boat up
+## Booster arrows
 
-Make the boat go faster over a white arrow.
+Add boosters to speed the boat up.
 
-![boat sprite](images/boat_resize.png)
+Click on the **Stage**.
 
-Click on the **Boat sprite**.
+Paint some white booster arrows onto the backdrop.
 
-Inside the `forever`{:class="block3control"} loop, add an `if`{:class="block3control"} block.
+![screenshot](images/boat-boost.png)
 
-Set it to check if the boat is `touching`{:class="block3sensing"} white.
+> ## Tip
+>
+> Click the purple `next backdrop`{:class="block3looks"} block to see the example.
 
-Inside it, add `move 3 steps`{:class="block3motion"}.
-
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
-
-## Now run your code
-
-Click the green flag and drive over an arrow.
-
-Check that the boat speeds up.
+The arrows do nothing until the next step.
