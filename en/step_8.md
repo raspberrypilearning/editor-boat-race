@@ -1,15 +1,15 @@
 ## Booster arrows
 
-Add some boosters to speed the boat up.
+Add boosters to speed the boat up.
 
-Paint some white booster arrows onto your backdrop by painting the backdrop on the Stage.
+Click on the **Stage**.
+
+Paint some white booster arrows onto the backdrop.
 
 ![screenshot](images/boat-boost.png)
 
 ## Tip
 
-You can make your backdrop look like this by clicking the purple `next backdrop`{:class="block3looks"} block in the looks menu.
+Click the purple `next backdrop`{:class="block3looks"} block to see the example.
 
-The arrows won't do anything yet.
-
-You'll add the code that makes them speed up the boat in the next step.
+The arrows do nothing until the next step.

@@ -1,35 +1,27 @@
 ## Make a spinning gate
 
-Add a spinning gate that the boat has to avoid.
+Add a spinning gate for the boat to avoid.
 
 ## Step 1
 
-Paint a new sprite that looks like this, and call it `gate`.
+Paint a new sprite and call it **gate**.
 
 ![screenshot](images/boat-gate.png)
 
-Make sure the colour of the gate sprite is the same as the colour of the wooden barriers.
+Match its colour to the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
 ## Tip
 
-If you have trouble matching the colour of the barriers, set the colours to:
-
-Colour: 9
-
-Saturation: 100
-
-Brightness: 40
+If the colour is hard to match, set it to colour 9, saturation 100, brightness 40.
 
 ## Step 2
 
-Make sure the centre of the gate sprite is positioned in the middle.
+Position the centre of the gate in the middle.
 
-You may need to resize the gate sprite if it is too big.
+Resize it if it is too big.
 
 ![screenshot](images/boat-center.png)
 
-The gate won't move yet.
-
-You'll make it spin in the next step.
+The gate starts spinning in the next step.

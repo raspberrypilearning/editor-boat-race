@@ -1,12 +1,18 @@
 ## Detect a crash
 
-Make the boat crash and reset when it touches a wooden barrier.
+Make the boat crash when it touches a wooden barrier.
 
-You're still working on the `Boat`{:class="block3looks"} sprite.
+You're still working on the **Boat sprite**.
 
-Add blocks inside your `forever`{:class="block3control"} loop that keep checking whether the boat is touching the brown wood.
+## Step 1
 
-If it is, switch to the `hit` costume, say something, then reset the boat's position.
+Inside the `forever`{:class="block3control"} loop, add an `if`{:class="block3control"} block.
+
+Set it to check if the boat is `touching`{:class="block3sensing"} the brown wood.
+
+Inside the `if`{:class="block3control"} block, add `switch costume to`{:class="block3looks"} hit.
+
+Then add `say`{:class="block3looks"} something.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
@@ -20,18 +26,29 @@ point towards (mouse-pointer v)
 move (1) steps
 end
 +if <touching color [#663b00] ?> then
++switch costume to (hit v)
++say [Noooooo!] for (2) seconds
++end
+```
+
+## Step 2
+
+Still inside the `if`{:class="block3control"} block, add blocks to send the boat back to the start.
+
+```blocks3
+if <touching color [#663b00] ?> then
 switch costume to (hit v)
 say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
++switch costume to (normal v)
++point in direction (0)
++go to x: (-190) y: (-150)
 end
 ```
 
 ## Now run your code
 
-Click the green flag and steer the boat into a wooden barrier.
+Click the green flag and crash into a barrier.
 
-The boat switches to its wrecked costume, says something, then jumps back to the start.
+Check that the boat crashes and jumps back to the start.
 
 ![screenshot](images/boat-crash.png)

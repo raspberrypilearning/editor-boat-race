@@ -1,12 +1,12 @@
 ## Smooth out the movement
 
-When the boat reaches the mouse pointer, it jitters about.
+The boat jitters when it reaches the pointer.
 
-Fix this so the boat only moves when it is more than 5 pixels away from the pointer.
+You're still working on the **Boat sprite**.
 
-You're still working on the `Boat`{:class="block3looks"} sprite.
+Wrap the movement in an `if`{:class="block3control"} block.
 
-Add an `if`{:class="block3control"} block that checks whether the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5`{:class="block3operators"}, and put the movement inside it.
+Set it to check that the `distance to`{:class="block3sensing"} the mouse pointer is `greater than 5`{:class="block3operators"}.
 
 ```blocks3
 when flag clicked
@@ -20,6 +20,6 @@ move (1) steps
 
 ## Now run your code
 
-Click the green flag and move your mouse close to the boat.
+Click the green flag and move your mouse near the boat.
 
-The boat now sits still instead of jittering when the pointer is near.
+Check that the boat stops jittering.
