@@ -1,96 +1,27 @@
-# Project Structure
+# Boat race
 
-This repository is used to build CCP projects. Below is the directory structure and a description of what each folder and file is used for.
+This English project builds a Scratch boat-racing game in the Raspberry Pi Code Editor.
 
-```plaintext
-en/
-├── code/
-│   ├── project-name-complete/
-│   │   ├── main.py
-│   │   └── project_config.yml
-│   └── project-name-starter/
-│       ├── main.py
-│       └── project_config.yml
-├── images/
-│   └── .keep
-├── resources/
-│   └── .keep
-├── solutions/
-│   └── .keep
-├── README.md
-├── meta.yml
-├── step_1.md
-├── step_2.md
-└── step_3.md
-```
+## Project files
 
-## Directory and File Descriptions
+- `landing.md` introduces the game and embeds the published Scratch player.
+- `step_1.md` to `step_13.md` contain 12 build steps and an optional challenge.
+- `meta.yml` defines the step titles, order, completion markers and landing-page setting.
+- `code/editor-boat-race-starter/` contains `editor-boat-race-starter.sb3`, with the boat and two race-course backdrops but no scripts, variables or lists.
+- `code/editor-boat-race-complete/` contains `editor-boat-race-complete.sb3`, with movement, collisions, a visible timer, boosters and a spinning gate.
+- Both code folders have a `project_config.yml` with a matching identifier, `type: 'code_editor_scratch'` and `build: true`.
+- `resources/BoatRaceResources.sb3` is the downloadable copy of the editor starter.
+- `solutions/BoatRace-Finished.sb3` is the downloadable copy of the complete project.
+- `images/` contains the project banner, screenshots and sprite thumbnails. The repository's `banner.png` is a copy of `images/small_banner.png`.
 
-### `code/`
-Contains Python or HTML code used in the Raspberry Pi Code Editor.  
-- Each project must be in its own subdirectory. Directory names should be descriptive but are otherwise flexible.  
-- Inside each subdirectory:  
-  - `main.py` (for Python projects) or `index.html` (for HTML projects)  
-  - `project_config.yml` containing:  
-    - `name`: The project name  
-    - `identifier`: A unique identifier for the project
-    - `type`: 'python' or 'html'  
-    - `build`: `false` by default; set to `true` for the editor project to be built  
+## Metadata
 
-### `images/`
-Stores all images for the project.  
-- Must contain a `banner.png` (the project’s hero image).  
-- Edited images should be accompanied by their original versions.  
-- Additional supporting images should be sensibly named.  
+The project uses `landing: true` and `pdf: false`. Completion markers are on step 2 (`engaged`), step 8 (`internal`) and step 12 (`external`). Step 13 has `challenge: true` and no completion marker.
 
-### `resources/`
-Contains supporting resources for the project.  
-- Must include the PDF version of the project, clearly named.  
-- Other resources such as offline starter projects, assets, or supporting files can also go here.  
-- Learners can download a `.zip` of this folder via:  
-  `https://rpf.io/p/en/project-slug-go`
+Keep the metadata titles and order in sync with the numbered step files. Update `last_tested` after testing the finished game.
 
-### `solutions/`
-Contains the final completed version of the project, if needed.  
-- Learners can download this via:  
-  `https://rpf.io/p/en/project-slug-get`
+## Updating the Scratch files
 
-### `meta.yml`
-Defines project metadata used for publishing. Example fields:  
-```yaml
-title: Project title in sentence case
-hero_image: images/banner.png
-description: A short description of the project
-listed: false
-pdf: false
-steps:
-  - title: What you will make
-  - title: Step title
-    completion:
-      - engaged
-  - title: Step title
-    completion:
-      - internal      
-  - title: Challenge
-    challenge: true
-    completion:
-      - external
-```
+Keep each editor archive and its downloadable copy identical. The starter should leave learners to create their own scripts and variables. The complete project should match the lesson, including two-second crash and winning messages and a visible `time` monitor.
 
-- **`listed`**:  
-  - `true`: project is published from the master branch  
-  - `false`: project is not publicly listed (but still accessible via slug URL)  
-- **`pdf`**: Path to a PDF in `resources/`, making it downloadable  
-- **`completion`**: Metrics for learner progress  
-  - `engaged`: Learner has reached the first "making" step  
-  - `internal`: Final "making" step of the project  
-  - `external`: Last step of the project, often a challenge  
-- **Challenges**: Optional, provide extra tasks and count as `external` completion steps  
-
-### `README.md`
-Documentation for the project, including the structure and explanation of contents.
-
-### `step_1.md`, `step_2.md`, `step_3.md`
-Markdown files containing step-by-step instructions for learners.  
-- Each step corresponds to a tutorial section.  
-- The number of steps varies by project.  
+After publication, check that both editor projects load as Scratch and that the landing-page game plays correctly.

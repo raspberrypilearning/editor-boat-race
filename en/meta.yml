@@ -2,6 +2,8 @@ title: Boat race
 hero_image: images/small_banner.png
 description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
+pdf: false
+landing: true
 copyedit: true
 version: 4.1.2
 last_tested: 2024-11-19
@@ -22,7 +24,7 @@ steps:
   - title: Speed the boat up
   - title: Make a spinning gate
   - title: Spin the gate
-  - title: Challenge
-    challenge: true
     completion:
       - external
+  - title: Challenge
+    challenge: true
