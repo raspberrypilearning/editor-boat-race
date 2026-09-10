@@ -12,7 +12,7 @@ Click on the **Stage**.
 
 In the `variables`{:class="block3variables"} menu, make a new variable and name it **time**.
 
-![The Make a Variable button](images/make-variable.png)
+![The Make a Variable button](images/make-variable.png){:width="250px"}
 
 An orange box will appear on the stage.
 
