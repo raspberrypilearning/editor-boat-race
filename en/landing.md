@@ -1,3 +1,5 @@
+## What you will make
+
 Make a boat racing game!
 
 Use the mouse to navigate a boat to an island without bumping into obstacles.

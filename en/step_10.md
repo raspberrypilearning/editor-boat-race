@@ -4,9 +4,9 @@ Make the boat go faster over a white arrow.
 
 ## Step 1
 
-![The boat sprite](images/boat_resize.png)
+![The boat sprite](images/boat-sprite.png)
 
-On the **Boat sprite** add an `if`{:class="block3control"} and `touching`{:class="block3sensing"} block. Use the eyedropper tool to set the colour to the white arrows.
+On the **Boat sprite**, inside the `forever`{:class="block3control"} loop and after the winning check, add an `if`{:class="block3control"} and `touching color`{:class="block3sensing"} block. Use the eyedropper tool to set the colour to the white arrows.
 
 ```blocks3
 if <touching color [#FFFF99] ?> then

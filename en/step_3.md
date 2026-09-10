@@ -19,3 +19,5 @@ Name the new costume **hit**.
 In your **hit** costume use the paint editor tools to move and rotate parts of the boat to make it look smashed up.
 
 ![The boat costume edited to look smashed up](images/boat-hit-costume-annotated.png)
+
+Check that you now have two costumes, **normal** and **hit**, and that they look different.

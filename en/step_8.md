@@ -6,7 +6,7 @@ Add a timer so the player has to reach the island quickly.
 
 Click on the **Stage**.
 
-![The Stage selected in the sprite panel](images/stage-panel.png)
+![The Stage selected in the sprite panel](images/stage-panel.png){:width="150px"}
 
 ## Step 2
 

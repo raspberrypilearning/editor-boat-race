@@ -20,6 +20,7 @@ move (1) steps
 end
 +if < > then
 +end
+end
 ```
 
 ## Step 3

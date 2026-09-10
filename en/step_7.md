@@ -17,11 +17,12 @@ go to x: (-190) y: (-150)
 end
 +if < > then
 +end
+end
 ```
 
 ## Step 2
 
-Add a `touching`{:class="block3sensing"} block and use the eyedropper tool to select the yellow colour of the island.
+Add a `touching color`{:class="block3sensing"} block and use the eyedropper tool to select the yellow colour of the island.
 
 ```blocks3
 +if <touching color [#FFFF99] ?> then
@@ -39,14 +40,14 @@ if <touching color [#FFFF99] ?> then
 end
 ```
 
+> ## Tip
+>
+> To test winning quickly, change the first `go to`{:class="block3motion"} block to `go to x: (150) y: (-90)`{:class="block3motion"}.
+>
+> Change it back to `go to x: (-190) y: (-150)`{:class="block3motion"} afterwards.
+
 ## Now run your code
 
 Click the green flag and steer to the island.
 
 Check that the boat says YEAH! and the game stops.
-
-> ## Tip
->
-> To test winning quickly, change the first `go to`{:class="block3motion"} block to `go to x: (150) y: (-90)`{:class="block3motion"}.
->
-> Change it back afterwards.

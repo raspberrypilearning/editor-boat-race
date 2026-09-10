@@ -30,6 +30,8 @@ On the stage, drag the gate into the boat's path, between the start and the isla
 
 Resize it if it is too big.
 
+Change the size using the size box under the stage.
+
 ![The gate placed in the boat's path](images/gate-position.png)
 
 

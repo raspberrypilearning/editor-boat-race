@@ -7,7 +7,7 @@ Make the boat start in the corner and follow the mouse pointer.
 
 ## Step 1
 
-![The boat sprite](images/boat_resize.png)
+![The boat sprite](images/boat-sprite.png)
 
 Click on the **Boat sprite**, then add these blocks to make a starting position.
 
@@ -28,6 +28,7 @@ go to x: (-190) y: (-150)
 +forever
 point towards (mouse-pointer v)
 move (1) steps
++end
 ```
 
 ## Now run your code

@@ -3,6 +3,7 @@
 Make the boat stop moving when it touches the pointer.
 
 ## Step 1
+
 Wrap the movement in an `if`{:class="block3control"} block.
 
 ```blocks3
@@ -13,9 +14,12 @@ forever
 +if < > then
 point towards (mouse-pointer v)
 move (1) steps
+end
+end
 ```
 
 ## Step 2
+
 Add a `more than`{:class="block3operators"} block and change the number to `5`. Drag a `distance to mouse-pointer`{:class="block3sensing"} block into the other slot.
 
 ```blocks3
@@ -23,6 +27,8 @@ forever
 +if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
+end
+end
 ```
 
 ## Now run your code
