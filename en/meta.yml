@@ -1,7 +1,7 @@
 title: Boat race
 hero_image: images/small_banner.png
 description: Create a boat-racing game in which you have to avoid obstacles
-listed: true
+listed: false
 pdf: false
 landing: true
 copyedit: true
